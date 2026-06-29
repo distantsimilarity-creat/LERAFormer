@@ -1,0 +1,6 @@
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+__pycache__/
+.idea/
