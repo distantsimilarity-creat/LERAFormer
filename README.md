@@ -13,7 +13,7 @@ LERAFormer couples a Swin Transformer semantic branch with a lightweight CNN edg
 - **LERA module**: Local Enhancement and Rectified Alignment for enhancing local structures and correcting inconsistent cross-branch responses.
 - **LCAF module**: Local Cross-Attention Fusion for boundary-guided local semantic interaction.
 - **Ablation models**: variants without LERA, LCAF, DGER, CECA, or LSK are included.
-- **Baseline models**: U-Net, DeepLabV3+, SegFormer, STUNet, TransUNet, SwinUNet, LEFormer, and LandslideNet are included for comparison.
+- **Baseline models**: U-Net, DeepLabV3+, SegFormer, STUNet, TransUNet, and LEFormer are included for comparison.
 - **Validation threshold selection**: the best foreground threshold is saved during validation.
 - **Best checkpoint selection**: `best.pth` is selected according to the lowest validation loss.
 
@@ -42,7 +42,6 @@ LERAFormer/
 │   ├── segformer_b5.py                # Baseline model
 │   ├── STUnet.py                      # Baseline model
 │   ├── transunet.py                   # Baseline model
-│   ├── swinunet.py                    # Baseline model
 │   ├── LEFormer.py                    # Baseline model
 │   └── _build_model.py                # Model builder
 ├── tools/
