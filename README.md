@@ -246,7 +246,7 @@ If you use this code, please cite the corresponding paper after publication.
 @article{liao_leraformer,
   title   = {Boundary-aware dual-branch network with explicit region correction for landslide segmentation from multi-source remote sensing data},
   author  = {Liao, Jun and Hao, Lina and Liu, Xi and Xu, Qiang and Sajinkumar, K. S.},
-  journal = {Computers & Geosciences},
+  journal = {Applied Intelligence},
   year    = {2026},
   note    = {Manuscript submitted}
 }
